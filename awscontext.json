@@ -1,0 +1,14 @@
+{
+    "name": "awscontext",
+    "version": "2.0",
+    "context": {
+        "default": {
+            "s3bucket": "m2gen-bioinformatics-data",
+            "profile": "default"
+        },
+        "prod": {
+            "s3bucket": "tbd",
+            "profile": "prod"
+        }
+    }
+}
